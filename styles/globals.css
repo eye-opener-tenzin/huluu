@@ -5,6 +5,10 @@
 
 @layer base {
   body {
-      @apply bg-[#06202A] text-gray-300;
+    @apply bg-[#06202A] text-gray-300;
   }
+}
+
+.header-icon {
+  @apply h-10 w-10 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-white;
 }
