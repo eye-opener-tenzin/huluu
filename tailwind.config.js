@@ -4,7 +4,11 @@ module.exports = {
   
    darkMode: false, // or 'media' or 'class'
    theme: {
-     extend: {},
+     extend: {
+       screen: {
+         "3xl": "2000px ",
+       }
+     },
    },
    variants: {
      extend: {},
